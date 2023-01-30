@@ -28,11 +28,12 @@ function myKeyDown(e)
 
 	if(keyPressed == '69') 
 	{
+		blockX = 20;
 		new_image("rr1.png");
 	}
 	if(keyPressed == '86')
 	{
-		blockX = 200;
+		blockX = 300;
 		new_image("gr.png");
 	}
 	
@@ -43,12 +44,12 @@ function myKeyDown(e)
 	}
 	if(keyPressed == '82')
 	{
-		blockX = 600;
+		blockX = 1000;
 		new_image("yr.png");
 	}
 	if(keyPressed == '73')
 	{
-		blockX = 700;
+		blockX = 800;
 		new_image("pr.png");
 	}
 	
