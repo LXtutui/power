@@ -28,7 +28,7 @@ function myKeyDown(e)
 
 	if(keyPressed == '69') 
 	{
-		blockX = 20;
+		blockX = 30;
 		new_image("rr1.png");
 	}
 	if(keyPressed == '86')
